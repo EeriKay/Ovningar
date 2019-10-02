@@ -4,7 +4,7 @@
 #include<stdio.h>
 void las_rad(char rad[]){
   char c;
-  char i;
+  int i;
   i=0;
   while ((c=getchar())!='\n' )
   {
