@@ -5,11 +5,11 @@
   char namn[20];
   char address[30];
   char post[20];
-  printf("Vad heter du? \n" );  /*fflush behövs för att annars buffras det istället! */
+  printf("Vad heter du? \n" ); fflush(stdout);  /*fflush behövs för att annars buffras det istället! */
   las_rad(namn);  /*19%s för att namnet får vara max 19 långt */
-  printf("Vad är din address? \n");
+  printf("Vad är din address? \n"); fflush(stdout);
   las_rad(address);
-  printf("Vad är din postkod \n");
+  printf("Vad är din postkod \n"); fflush(stdout);
   las_rad(post);
   skriv_rad(namn);
   skriv_rad(address);
