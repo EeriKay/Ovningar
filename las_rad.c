@@ -3,13 +3,12 @@
 #include"las_rad.h"
 #include<stdio.h>
 void las_rad(char rad[]){
-  char c;
   int i;
   i=0;
-  while ((c=getchar())!='\n' )
+  while (rad[i]!='\0' )
   {
-    rad[i] = c;
+    putchar(rad[i]);
     i++;
   }
-  rad[i]='\0';
+  rad[i]='\n';
 }
