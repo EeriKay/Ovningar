@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 int main(){
-  printf("Hello world!");
+  char namn[20];
+  printf("Vad heter du?\n" );
+  scanf("%s\n",namn );
+  printf("Hej! %s\n", namn);
   return 0;
 }
