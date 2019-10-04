@@ -1,0 +1,1 @@
+void las(char rad[]);
