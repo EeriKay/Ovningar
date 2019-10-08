@@ -1,2 +1,2 @@
-void las(char input[]);
+int las(char input[]);
 void skriv(char input[]);

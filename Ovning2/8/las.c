@@ -1,15 +1,23 @@
 #include<stdio.h>
 #include"las.h"
 
-void las(char input[])
+int las(char input[])
 {
   char c;
   int i=0;
+  int j=0;
   while((c=getchar())!=EOF)
   {
+    input[i]=c;
     i++;
+    if (c=='\n')
+    {
+      j++;
+    }
   }
   input[i]='\0';
+  putchar('\n');
+  return j;
 }
 void skriv(char input[])
 {
