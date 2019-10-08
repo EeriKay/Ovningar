@@ -4,10 +4,9 @@
 void las(char input[])
 {
   char c;
-  int i;
+  int i=0;
   while((c=getchar())!=EOF)
   {
-    input[i]=c;
     i++;
   }
   input[i]='\0';
