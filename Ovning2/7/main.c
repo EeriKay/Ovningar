@@ -7,14 +7,14 @@ int main(){
   int i=0;
   char c;
   while ((c=input[i])!='\0') {
+  printf("\n");
     while (((c=input[i])!='\0')&&(c!='\n')&&(c!=' '))
     {
       putchar(c);
       i++;
     }
-    printf("\n");
+
     i++;
   }
-  printf("\n");
   return 0;
 }
