@@ -1,0 +1,2 @@
+#ÖVNINGUPPGIFT 4
+Om man använder en skrivande terminal kan man iland , precis som på en vanlig skrivmaskin, stryka under ett ord genom att backa tillbaka på raden och skriva understrykningstecken _ under ordet. Skriv ett programavsnitt som skriver ut den textsträng som finns i variabeln s understrucken
