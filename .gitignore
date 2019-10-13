@@ -2,3 +2,6 @@
 *.o
 *.out
 .vscode
+cvibuild.*
+*.prj
+*.cws

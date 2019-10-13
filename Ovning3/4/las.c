@@ -21,7 +21,7 @@ void skriv(char input[])
     i++;
   }
 }
-void understryck(char input[])
+void understryk(char input[])
 {
   int i=0;
   char c;

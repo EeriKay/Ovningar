@@ -5,6 +5,7 @@ int main(){
   char input[1080];
   las(input);
   skriv(input);
-  understryck(input);  
+  understryk(input);  
+  skriv(input);
   return 0;
 }
