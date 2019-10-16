@@ -25,10 +25,11 @@ void understryk(char input[])
 {
   int i=0;
   char c;
-  while ((c=getchar())!='\0')
+  while ((c=input[i])!='\0')
   {
-    input[i]='\b';
+	putchar('\b');
     input[i]='_';
     i++;
   }
 }
+	
