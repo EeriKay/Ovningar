@@ -1,0 +1,7 @@
+Skriv om varulagerprogrammet i kapitel 8 så att det läser in alla poster vid programmets start och skriver ut dem vid avslutandet så att vi har en parmenent lagring av varulagerdatabasen.
+Lägg till ett kommande för att under körning skriva ut allt på lagerfilen. Det kan ju vara bra att göra då och då omd atorn skulle stanna och alla uppdateringar sedan programstarten annars förlorad.
+Se till att förse alla androp till std-funk med tester huruvida det gick bra.
+Gör annars en felutskriv, t.ex. med perror.
+Fortsätt ytterliggare på säkerhetslinjen.: så fort en ändring görs loggas den även in i en transaktionefil.
+Skulle programmet nu stanna oväntat, har vi alltid möjligheten att gå tillbaka och knappa in ändringarna igen.
+Som en sista utvecklingsmöjlighet kan vi också låta bli att läsa in alla poster till en intern datastruktur utan i stället ändra posterna där de ligger i lagerfilen.
